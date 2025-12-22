@@ -1,0 +1,68 @@
+@import "tailwindcss";
+body{
+    background-color: #0F0F0F;
+    color: white;
+    font-family: "Pin Sans", "-apple-system, BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Ubuntu, Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "メイリオ, Meiryo", "ＭＳ Ｐゴシック", Arial, sans-serif;
+}
+.navfadeDrop {
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: navfadeDropIn 0.6s ease-out 0.5s forwards;
+}
+
+@keyframes navfadeDropIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeDrop {
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: fadeDropIn 0.8s ease-out 0.6s forwards;
+}
+
+@keyframes fadeDropIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.secondFadeDrop {
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: secondFadeDropIn 0.9s ease-out 0.8s forwards;
+}
+
+@keyframes secondFadeDropIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.thirdFadeDrop {
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: thirdFadeDropIn 1s ease-out 1s forwards;
+}
+
+@keyframes thirdFadeDropIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.footerFadeDrop {
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: footerFadeDropIn 1s ease-out 1.2s forwards;
+
+}
+
+@keyframes footerFadeDropIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
