@@ -24,7 +24,7 @@ function Contact() {
             <div className='flex gap-10 justify-center items-center'>
               <button className='h-10 w-50 bg-white rounded-3xl text-[black]'>Contact Us</button>
               <div className='flex gap-8 '>
-                <a className='text-[30px]' href="https://www.instagram.com/__rana__kunal__?igsh=MWVxamluOGhxcGN5Nw==" target='_blank'><FaInstagram /></a>
+                <a className='text-[30px]' href="https://www.instagram.com/__rana__kunal__?igsh=MWVxamluOGhxcGN5Nw==" target='_blank' rel="noopener noreferrer"><FaInstagram /></a>
               </div>
             </div>
           </div>
