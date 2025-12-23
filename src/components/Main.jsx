@@ -5,8 +5,7 @@ import { PiSignatureLight } from "react-icons/pi";
 function Main() {
   return (
     <div >
-        <div className='max-sm:h[340px] max-sm:gap-2 h-[340px] w-[100%] flex gap-5 '>
-            
+        <div className='max-sm:w-[100%] max-sm:px-6 max-sm:h[400px] max-sm:gap-2 h-[340px] w-[100%] flex gap-5 '>
             <Card1/>
            <Card2/>
         </div>

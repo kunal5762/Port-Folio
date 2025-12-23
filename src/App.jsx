@@ -13,7 +13,7 @@ import { BrowserRouter, Routes, Route, HashRouter } from "react-router";
 function App() {
   console.log(import.meta.env.VITE_API_URL)
   return (
-    <div className=' max-sm:w-[563px] max-xl:w-[1280px] max-lg:w-[1024px] max-lg:px-[15px] px-[50px] max-sm:px-[20px]'>
+    <div className=' max-sm:w-[100%] max-sm:flex'>
       <div className='flex flex-col'>
         <HashRouter>
           <Nav/>

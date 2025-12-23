@@ -23,11 +23,11 @@ function Nav() {
     }
     return (
         <div className='max-sm:flex max-sm:flex-col '>
-            <div className='navfadeDrop max-sm:flex max-sm:justify-between max-sm:items-center max-sm:w-[540px] h-[50px] w-[100%] flex justify-between items-center mt-2'>
+            <div className='navfadeDrop max-sm:flex max-sm:justify-between max-sm:items-center max-sm:w-[100%] max-sm:px-6 h-[50px] w-[100%] flex justify-between items-center mt-2 px-7'>
                 <div className='text-[25px] font-bold cursor-pointer'>
                     <Link to={"/"}><p className='hover:scale-140 transition-transform duration-300 hover:rotate-[360deg]'>PORTFOLIO</p></Link>
                 </div>
-                <div className='max-sm:hidden flex items-center justify-between w-[64%]'>
+                <div className='max-sm:hidden flex items-center justify-between w-[60%]'>
                     <div className='flex gap-14 text-[14px] text-[#323232] cursor-pointer'>
                         <Link to={"/"}><div className='text-white'>Home</div></Link>
                         <Link to={"/about"}> <div>About</div></Link>

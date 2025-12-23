@@ -5,8 +5,8 @@ import Lastcd from '../Lastcd'
 
 function Home() {
   return (
-    <div>
-      <div className='flex flex-col mt-18 lg:items-center'>
+    <div className='max-sm:flex'>
+      <div className='max-sm:mt-6 flex flex-col mt-8 w-[100%] items-center'>
         <Main />
         <Second/>
         <Lastcd/>
