@@ -2,8 +2,8 @@ import React from 'react'
 import img from '../../assets/mainimg.jpeg'
 function About() {
   return (
-    <div className=' flex justify-center items-center'>
-      <div className='secondFadeDrop max-sm:h-400 max-sm:w-[530px] max-xl:w-[1280px] max-lg:w-[1020px] h-150 w-350 flex justify-center items-center mb-10'>
+    <div className=' flex justify-center items-center px-10'>
+      <div className='secondFadeDrop max-sm:px-20 max-sm:h-400 max-sm:w-[530px] max-xl:w-[1280px] max-lg:w-[1020px] h-150 w-350 flex justify-center items-center mb-10 '>
         <div className='max-sm:h-380 max-sm:w-[500px] max-sm:flex max-sm:flex-col max-sm:justify-around h-140 w-[100%] bg-[#191919] mt-15 rounded-4xl flex justify-around items-center hover:scale-90 transition-transform duration-200 origin-center'>
           <div className='h-130 w-140 flex flex-col justify-around max-sm:hidden'>
             <div>
