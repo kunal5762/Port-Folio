@@ -22,9 +22,9 @@ function Nav() {
         }
     }
     return (
-        <div className='max-sm:flex max-sm:flex-col '>
-            <div className='navfadeDrop max-sm:flex max-sm:justify-between max-sm:items-center max-sm:w-[100%] max-sm:px-6 h-[50px] w-[100%] flex justify-between items-center mt-2 px-7'>
-                <div className='text-[25px] font-bold cursor-pointer'>
+        <div className='max-sm:flex max-sm:flex-col max-sm:justify-between'>
+            <div className='navfadeDrop max-sm:flex max-sm:justify-between max-sm:items-center max-sm:max-w-sm max-sm:px-6 h-[50px] w-[100%] flex justify-between items-center mt-2 px-7'>
+                <div className='text-[25px] text-base font-bold cursor-pointer'>
                     <Link to={"/"}><p className='hover:scale-140 transition-transform duration-300 hover:rotate-[360deg]'>PORTFOLIO</p></Link>
                 </div>
                 <div className='max-sm:hidden flex items-center justify-between w-[60%]'>
@@ -38,14 +38,14 @@ function Nav() {
                         <p>Let`s talk</p>
                     </div>
                 </div>
-                <div onClick={handlEvent} className={` ${state.btn1} sm:hidden cursor-pointer max-sm:pr-3 max-sm:text-[25px] `}>
+                <div onClick={handlEvent} className={` ${state.btn1} sm:hidden cursor-pointer max-sm:pr-3 max-sm:text-base `}>
                     <RiMenu3Fill />
                 </div>
-                <div onClick={handlEvent} className={`${state.btn2} sm:hidden cursor-pointer max-sm:pr-3 max-sm:text-[25px]`}>
+                <div onClick={handlEvent} className={`${state.btn2} sm:hidden cursor-pointer max-sm:pr-3 max-sm:text-base`}>
                     <RxCross1/>
                 </div>
             </div>
-            <div onClick={handlEvent} className={`${state.high} text-white max-sm:w-[540px] flex justify-end pr-3 overflow-hidden transition-all duration-300 items-center`}>
+            <div onClick={handlEvent} className={`${state.high} text-white max-sm:max-w-sm flex justify-end pr-3 overflow-hidden transition-all duration-300 items-center`}>
             <div className='flex flex-col gap-5 sm:hidden pt-5'>
                         <Link to={"/"}><div className='text-white'>Home</div></Link>
                         <Link to={"/about"}> <div>About</div></Link>
