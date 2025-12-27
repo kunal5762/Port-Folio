@@ -22,7 +22,7 @@ function Nav() {
         }
     }
     return (
-        <div className='max-sm:flex max-sm:flex-col max-sm:justify-between'>
+        <div className='max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:max-w-sm'>
             <div className='navfadeDrop max-sm:flex max-sm:justify-between max-sm:items-center max-sm:max-w-sm max-sm:px-6 h-[50px] w-[100%] flex justify-between items-center mt-2 px-7'>
                 <div className='text-[25px] text-base font-bold cursor-pointer'>
                     <Link to={"/"}><p className='hover:scale-140 transition-transform duration-300 hover:rotate-[360deg]'>PORTFOLIO</p></Link>
@@ -45,14 +45,14 @@ function Nav() {
                     <RxCross1/>
                 </div>
             </div>
-            <div onClick={handlEvent} className={`${state.high} text-white max-sm:max-w-sm flex justify-end pr-3 overflow-hidden transition-all duration-300 items-center`}>
+            {/* <div onClick={handlEvent} className={`${state.high} text-white max-w-sm flex justify-end pr-3 overflow-hidden transition-all duration-300 items-center`}>
             <div className='flex flex-col gap-5 sm:hidden pt-5'>
                         <Link to={"/"}><div className='text-white'>Home</div></Link>
                         <Link to={"/about"}> <div>About</div></Link>
                         <Link to={"/works"}> <div>Works</div></Link>
                         <Link to={"/contact"}><div>Contact</div></Link>
                     </div>
-            </div>
+            </div> */}
         </div >
     )
 }

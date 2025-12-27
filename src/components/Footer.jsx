@@ -3,7 +3,7 @@ import { Link } from "react-router";
 function Footer() {
     return (
         <div>
-            <div className='footerFadeDrop max-sm:max-h-sm max-sm:max-w-sm h-[300px] w-[100%] flex flex-col justify-center items-center '>
+            <div className='footerFadeDrop max-sm:max-h-sm max-sm:max-w-sm max-sm:items-center max-sm:justify-center h-[300px] w-[100%] flex flex-col justify-center items-center '>
                 <div className='max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center flex flex-col justify-center items-center gap-7'>
                     <div className='max-sm:text-base text-[20px] cursor-pointer'>
                         <a href='https://in.pinterest.com/' target='_blank' rel="noopener noreferrer">www.Download.thmes.com</a>

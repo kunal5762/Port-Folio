@@ -13,8 +13,8 @@ import { BrowserRouter, Routes, Route, HashRouter } from "react-router";
 function App() {
   console.log(import.meta.env.VITE_API_URL)
   return (
-    <div className=' max-sm:w-[100%] max-sm:flex'>
-      <div className='flex flex-col'>
+    <div className=' max-sm:max-w-sm max-sm:flex'>
+      <div className='max-sm:max-w-sm flex flex-col'>
         <HashRouter>
           <Nav/>
           <Routes>
