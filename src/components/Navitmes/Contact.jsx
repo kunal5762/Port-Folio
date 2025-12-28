@@ -20,15 +20,15 @@ function Contact() {
 
   };
   return (
-    <div className='flex justify-center items-center sm:px-10'>
-      <div className='secondFadeDrop max-sm:max-w-sm max-sm:max-h-sm max-sm:pt-23 max-sm:flex max-sm:justify-center pt-12 flex justify-center items-center w-350 h-150 mb-10'>
-        <div className='max-sm:m-5 max-sm:max-h-sm h-150 w-[100%] bg-[#191919] rounded-4xl flex justify-evenly items-center '>
-          <div className='h-115 w-115 overflow-hidden rounded-4xl max-sm:hidden max-lg:hidden'>
+    <div className='max-sm:px-3 sm:flex sm:justify-center sm:items-center sm:px-10'>
+      <div className='secondFadeDrop max-sm:flex max-sm:justify-center max-sm:items-center max-sm:max-h-120 max-sm:max-w-full sm:pt-12 sm:flex sm:justify-center sm:items-center w-350 h-150 sm:mb-10'>
+        <div className='max-sm:h-100 max-sm:max-w-full max-sm:flex max-sm:justify-center max-sm:items-center h-150 w-[100%] bg-[#191919] rounded-4xl sm:flex sm:justify-evenly sm:items-center '>
+          <div className='sm:h-115 sm:w-115 overflow-hidden rounded-4xl max-sm:hidden max-lg:hidden'>
             <img className='h-115 w-120' src={img12} alt="" />
           </div>
-          <div className='flex flex-col gap-2 h-100'>
-            <h1 className='text-[50px] max-sm:text-base'>CONTACT US</h1>
-            <form ref={formsubmission} onSubmit={sendEmail} className='flex flex-col gap-3'>
+          <div className='max-sm:flex max-sm:flex-col max-sm:px-2 max-sm:max-w-full max-sm:gap-4 max-sm:items-center max-sm:max-full sm:flex sm:flex-col sm:gap-2 sm:h-100'>
+            <h1 className='sm:text-[50px] max-sm:text-base'>CONTACT US</h1>
+            <form ref={formsubmission} onSubmit={sendEmail} className='max-sm:flex max-sm:flex-col max-sm:max-w-full sm:flex sm:flex-col sm:gap-3'>
               <label>Full Name : </label>
               <input className='border-b-2 max-sm:text-balance' type="text" name="name" required />
               <label>E-mail : </label>
@@ -37,15 +37,15 @@ function Contact() {
               <label>Message : </label>
               <textarea className='border-b-2 max-sm:text-balance' name="message"
                 required></textarea> <br />
-              <div className='flex gap-10 justify-center items-center'>
-                <button type='submit' className='h-10 w-50 bg-white rounded-3xl text-[black] max-sm:text-base'>Contact Us</button>
+              <div className=' max-sm:flex max-sm:max-w-full max-sm:justify-between sm:flex sm:gap-10 sm:justify-center sm:items-center'>
+                <button type='submit' className='max-sm:max-w-30 h-10 w-50 bg-white rounded-3xl text-[black] max-sm:text-base'>Contact Us</button>
                 <a className='text-[30px] max-sm:text-balance' href="https://www.instagram.com/__rana__kunal__?igsh=MWVxamluOGhxcGN5Nw==" target='_blank' rel="noopener noreferrer"><FaInstagram /></a>
               </div>
             </form>
           </div>
         </div >
       </div >
-    </div>
+     </div>
   )
 }
 
