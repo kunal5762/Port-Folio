@@ -5,7 +5,7 @@ import Tdcard2 from './Thirdcard/Tdcard2'
 function Lastcd() {
   return (
     <div>
-        <div className='max-sm:flex max-sm:flex-col max-sm:gap-5 max-sm:mb-60 h-[300px] w-[100%] gap-6 flex  '>
+        <div className='max-sm:flex max-sm:flex-col max-sm:max-w-[640px] max-sm:h-[500px] max-sm:px-3 max-sm:gap-4 max-lg:max-w-[1024px] sm:h-[300px] w-[100%] sm:gap-6 sm:flex  '>
             <Tdcard1/>
             <Tdcard2/>
         </div>

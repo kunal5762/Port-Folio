@@ -3,11 +3,11 @@ import { PiStarFourThin } from "react-icons/pi";
 function Tdcard2() {
     return (
         <div>
-            <div className='thirdFadeDrop max-sm:h-[250px] max-sm:w-[550px] h-[260px] w-[600px] bg-[#191919] rounded-3xl flex flex-col gap-18 px-[50px] justify-center hover:scale-110 transition-transform duration-200 origin-center max-sm:hover:scale-110 max-sm:transition-transform max-sm:duration-200 max-sm:origin-center'>
-                <div className='h-[50px] text-[50px] pt-[35px]'>
+            <div className='thirdFadeDrop max-sm:flex max-sm:flex-col max-sm:justify-around max-sm:items-start max-sm:rounded-2xl max-sm:py-4 max-sm:max-h-[220px] max-sm:max-w-[640px] max-lg:max-w-[600px] max-sm:pl-8 max-lg:px-10 h-[260px] lg:w-[600px] bg-[#191919] sm:rounded-3xl sm:flex sm:flex-col sm:gap-18 lg:px-[50px] sm:justify-center hover:scale-110 transition-transform duration-200 origin-center'>
+                <div className=' max-sm:text-[40px] max-sm:h-[50px] h-[50px] sm:text-[50px] sm:pt-[35px]'>
                 <PiStarFourThin />
                 </div>
-                <div className=' h-[180px] text-[35px]'>
+                <div className='max-sm:max-h-[90px] h-[180px] max-lg:text-[25px] lg:text-[35px] max-sm:text-[25px]'>
                     <p className='text-white font-bold'>let`s <br />Work <span className='text-[#697BE4]'>together.</span></p>
                 </div>
             </div>

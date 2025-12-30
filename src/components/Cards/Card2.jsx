@@ -4,29 +4,27 @@ import { PiSignatureLight } from "react-icons/pi";
 import { Link } from "react-router";
 function card2() {
     return (
-        <div>
-
-            <div className='fadeDrop max-sm:flex max-sm:w-[280px] max-sm:h-[320px] max-sm:gap-2 w-[600px] h-[320px] flex flex-col rounded-4xl justify-center items-center gap-4 text-[#323232]'>
-                <div className='bg-[#191919] h-[40px] w-[100%] rounded-4xl flex justify-center items-center max-sm:w-[270px] max-sm:text-[9px] hover:scale-110 transition-transform duration-200 origin-center'>
+        <div className='max-sm:max-w-[50%]'>
+            <div className='fadeDrop max-sm:flex max-sm:items-center max-sm:justify-center max-sm:max-w-[100%] max-sm:max-h-[280px] w-[600px] h-[320px] sm:
+            flex sm:flex-col rounded-4xl sm:justify-center sm:items-center sm:gap-4 text-[#323232]'>
+                <div className='bg-[#191919] max-sm:hidden sm:h-[40px] w-[100%] rounded-4xl flex justify-center items-center max-sm:w-[270px] max-sm:text-[9px] hover:scale-110 transition-transform duration-200 origin-center'>
                     ST WORK AND  <span className='text-white px-2'>FEATURED</span>  . LATEST WORK AND <span className='text-white px-2'>FEATURED</span>
                 </div>
-                <div className='cursor-pointer max-sm:flex max-sm:flex-col max-sm:gap-2 flex h-[280px] w-[100%] gap-5 '>
-                     <div className='max-sm:flex max-sm:justify-aroundr max-sm:items-center max-sm:w-[270px] max-sm:h-[135px] h-[100%] w-[50%] bg-[#191919] rounded-4xl flex flex-col justify-around  items-center hover:scale-110 transition-transform duration-200 origin-center'>
-                        <div className='max-sm:h-[40px] max-sm:text-[60px] max-sm:w-full h-[80px] w-[100%] text-[100px] text-white pl-22 max-sm:pl-26'><PiSignatureLight /></div>
-                        <div className=' h-[50px] max-sm:text-[10px] '>
-                            <p className='text-[#323232] text-[20px] font-bold'>MORE ABOUT US</p>
-                            <p className='text-white text-[15px] font-bold'>Credentials</p>
+                <div className='cursor-pointer max-sm:max-h-full max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:max-w-[100%] sm:flex h-[280px] w-[100%] sm:gap-5 '>
+                    <div className='max-sm:flex max-sm:flex-col max-sm:justify-around max-sm:items-center max-sm:h-[135px] max-sm:max-w-[220px] max-sm:rounded-2xl max-sm:text-center h-[100%] sm:w-[50%] bg-[#191919] sm:rounded-4xl sm:flex sm:flex-col sm:justify-around sm:items-center hover:scale-110 transition-transform duration-200 origin-center'>
+                        <div className=' max-sm:pl-12 max-sm:h-[50px] max-sm:max-w-full max-sm:text-[60px] h-[80px] w-[100%] sm:text-[100px] text-white sm:pl-22'><PiSignatureLight /></div>
+                        <div className='max-sm:max-h-[40px] h-[50px] max-sm:text-[10px] '>
+                            <p className='text-[#323232] sm:text-[20px] sm:font-bold max-sm:text-base'>MORE ABOUT US</p>
+                            <p className='text-white sm:text-[15px] sm:font-bold max-sm:text'>Credentials</p>
                         </div>
                     </div>
-
-                  
-                   <div className='cursor-pointer max-sm:h-[140px] max-sm:w-[270px] max-sm:flex max-sm:flex-row max-sm:justify-center max-sm:items-center h-[100%] w-[50%] bg-[#191919] rounded-4xl flex flex-col max-sm:gap-2 justify-around items-center hover:scale-110 transition-transform duration-200 origin-center'>
-                        <div className='h-[130px] '>
-                           <Link to={"/works"}> <img className='max-sm:h[100px] max-sm:w-[130px] h-[140px] w-[150px]' src={cardimg} alt="My Projects" /></Link>
+                    <div className='cursor-pointer max-sm:h-[135px] max-sm:max-w-[220px] max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:py-2 max-sm:rounded-2xl h-[100%] sm:w-[50%] bg-[#191919] rounded-4xl sm:flex sm:flex-col sm:justify-around sm:items-center hover:scale-110 transition-transform duration-200 origin-center'>
+                        <div className='max-sm:max-h-[100px] sm:h-[130px] '>
+                           <Link to={"/works"}> <img className='max-sm:max-h-[100px] max-sm:max-w-[110px] h-[140px] w-[150px]' src={cardimg} alt="My Projects" /></Link>
                         </div>
 
-                        <div className=' max-sm:flex  max-sm:flex-col max-sm:justify-center max-sm:items-center h-[70px]'>
-                            <p className='text-[#323232] text-[20px] font-bold'>SHOWCASE</p>
+                        <div className=' max-sm:flex max-sm:max-h-[20px]  max-sm:flex-col max-sm:justify-center max-sm:items-center sm:h-[70px]'>
+                            <p className='text-[#323232] text-[20px] font-bold max-sm:hidden'>SHOWCASE</p>
                             <p className='text-white text-[15px] font-bold'>Project</p>
                         </div>
                     </div>

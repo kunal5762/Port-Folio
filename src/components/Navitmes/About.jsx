@@ -2,8 +2,8 @@ import React from 'react'
 import img from '../../assets/mainimg.jpeg'
 function About() {
   return (
-    <div className='max-sm:px-2 sm:flex sm:justify-center sm:items-center sm:px-10'>
-      <div className='secondFadeDrop max-sm:max-h-400 sm:max-h-220 sm:w-350 sm:flex sm:justify-center items-center'>
+    <div className='max-sm:px-3 sm:flex sm:justify-center sm:items-center sm:px-10'>
+      <div className='secondFadeDrop max-sm:max-h-400 sm:max-h-200 sm:w-350 sm:flex sm:justify-center items-center'>
         <div className='max-sm:max-h-400 max-sm:max-w-[640px] max-sm:flex max-sm:flex-col max-sm:justify-around sm:max-h-220 max-w-[100%] bg-[#191919] sm:mt-10 sm:py-10 sm:px-10 sm:gap-2 rounded-4xl sm:flex sm:justify-around sm:items-center hover:scale-90 transition-transform duration-200 origin-center'>
           <div className=' max-sm:hidden flex justify-around items-center max-h-250 sm:gap-5  '>
             <div className='sm:flex sm:flex-col w-[50%] gap-6'>
@@ -25,16 +25,16 @@ function About() {
               </div>
             </div>
             <div>
-              <div className='sm:h-96 sm:w-82 overflow-hidden rounded-2xl'>
-              <img className='sm:h-100 sm:w-85' src={img} alt="" />
+              <div className='sm:max-h-96 sm:max-w-82 overflow-hidden rounded-2xl'>
+              <img className=' sm:max-h-100 sm:max-w-85' src={img} alt="" />
             </div>
             </div>
           </div>
-          <div className='sm:hidden max-h-[960px] max-sm:max-w-full flex flex-col items-center justify-center gap-5 px-5 py-8 '>
-            <div className='max-h-68 max-w-62 overflow-hidden rounded-4xl '>
+          <div className='sm:hidden max-h-[900px] max-sm:max-w-full flex flex-col items-center justify-center gap-5 px-5 py-8 '>
+            <div className=' max-h-68 max-w-62  overflow-hidden rounded-4xl '>
               <img className='max-h-70 max-w-65' src={img} alt="" />
             </div>
-            <div className='sm:hidden h-150 max-w-full flex flex-col items-center'>
+            <div className='sm:hidden h-150 max-w-full flex flex-col items-center gap-4'>
               <div>
                 <h1 className='text-balance font-extrabold'>Who I Am</h1>
                 <p className='text-base text-[#424040]'><i>I’m a full-stack developer focused on building clean, functional, and user-friendly web applications.</i></p>
