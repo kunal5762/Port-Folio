@@ -7,7 +7,7 @@ function Second() {
   return (
     <div>
 
-      <div className='max-sm:flex max-sm:flex-col max-sm:max-w-[640px] max-sm:h-[470px] max-sm:gap-4 max-sm:px-3 h-[280px] w-[100%] sm:gap-4 sm:flex '>
+      <div className='max-sm:flex max-sm:flex-col max-sm:max-w-[640px] max-sm:h-[470px] max-sm:gap-4 max-lg:px-1 max-sm:px-3 max-xl:px-3 h-[280px] w-[100%] sm:gap-4 sm:flex '>
         <div className='max-sm:flex max-sm:gap-3  '>
           <Sdcard1 />
           <div className='sm:hidden max-sm:max-w-[50%]'>

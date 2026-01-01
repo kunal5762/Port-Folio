@@ -6,8 +6,8 @@ import { IoPhonePortrait } from "react-icons/io5";
 function Sdcard2() {
     return (
         <div>
-            <div className='secondFadeDrop max-sm:max-h-[220px] max-sm:max-w-[640px] max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center h-[260px] max-sm:gap-5 sm:w-[600px] bg-[#191919] rounded-3xl sm:flex sm:flex-col sm:justify-center sm:px-[45px] sm:gap-5 hover:scale-110 transition-transform duration-200 origin-center '>
-                <div className=' max-sm:flex max-sm:items-center max-sm:justify-between max-sm:gap-8 max-sm:max-h-[50px] max-sm:text-[35px] h-[80px] sm:text-[60px] sm:flex sm:gap-12 sm:pl-16 cursor-pointer ' >
+            <div className='secondFadeDrop max-sm:max-h-[220px] max-sm:max-w-[640px] max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center h-[260px] max-sm:gap-5 max-lg:max-w-[330px] max-xl:max-w-[420px] xl:w-[600px] max-xl:px-2 bg-[#191919] rounded-3xl sm:flex sm:flex-col sm:justify-center sm:px-[45px] sm:gap-5 hover:scale-110 transition-transform duration-200 origin-center '>
+                <div className=' max-sm:flex max-sm:items-center max-sm:justify-between max-sm:gap-8 max-sm:max-h-[50px] max-sm:text-[35px] max-lg:text-[40px] max-lg:flex max-lg:gap-5 max-lg:items-center max-lg:justify-center max-xl:text-[50px] h-[80px] items-center justify-center xl:text-[60px] sm:flex lg:gap-12 xl:pl-16 cursor-pointer ' >
                     <div><FaCamera /></div>
                     <div><GrTask /></div>
                     <div><IoIosColorFilter /></div>
